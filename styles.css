@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2? family= Ysabeau+SC:wght@200 & display=swap');
+
+body {
+    font-family: 'Ysabeau SC', sans-serif;
+    background-color: #F9F5F6;
+    background-image: url(./ilustarar/760a99987f95cb3ee7b60b0f8a2cc71c.png);
+    background-repeat: no-repeat;
+    background-position: unset;
+    background-size: 600px;
+}
+
+#seleccionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tittle {
+    color: hsl(0, 2%, 35%);
+    width: 310px;
+    height: 50px;
+    background-color: #F8E8EE;
+    border: 3px solid #f5dcdc;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subtitulo {
+
+    color: hsl(0, 2%, 35%);
+}
+
+.tarjetas{
+    display: flex;
+}
+
+
+.tarjeta-de-mokepon {
+    width: 200px;
+    height: 100px;
+    background: #F8E8EE;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 7px;
+    border: 3px solid #f5dcdc;
+    border-radius: 20px;
+    display: flex;
+    color: hsl(0, 2%, 35%);
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta-de-mokepon:hover {
+    cursor: pointer;
+    background: #f5dcdc;
+    color: #fff !important;
+}
+
+#boton-mascota {
+    width: 125px;
+    height: 35px;
+    border-radius: 30px;
+    background: #F8E8EE;
+    border: 2px solid #f5dcdc;
+    color: hsl(0, 2%, 35%);
+    margin: 14px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+#boton-mascota:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #f5dcdc;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+
+.tarjeta-de-mokepon img {
+    width: 80px;
+}
+
+
+input{
+    display: none;
+}
+
+#seleccionar-ataque {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.boton-de-ataque{
+    background-color:#F8E8EE ;
+    border: 2px solid #f5dcdc;
+    width: 151px;
+    height: 38px;
+    border-radius: 30px;
+    color: hsl(0, 2%, 35%);
+    margin: 3px;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.boton-de-ataque:hover{
+    color: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 16px #f5dcdc;
+    cursor: pointer;
+}
